@@ -1,4 +1,4 @@
-# CONTROLE DE FINAÇAS
+# CONTROLE FINANCEIRO
 Projeto para controle de despesas/créditos em finanças particulares.
 
 ## Melhorias
