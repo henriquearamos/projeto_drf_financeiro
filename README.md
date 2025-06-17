@@ -5,7 +5,6 @@ Projeto para controle de despesas/créditos em finanças particulares.
 - Inserir end point para cadastro de usuários com retorno do token de acesso
 - Adicionado tag de balanço no retorno -> Indica qual é o balanço do usuário pode ser exibido por: total, por mes, por dia
 - Adicionado query param no end point para consulta filtrando por total, por mes, por dia
-- Inserir end point para incluir montante inicial (Incluir no banco de usuários)
 
 ## Documentação da API
 
