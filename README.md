@@ -36,6 +36,11 @@ Projeto para controle de despesas/créditos em finanças particulares.
 
 ```http
   /api/schema/
+```
+```http
   /api/docs/
+```
+```http
+  /api/redoc/
 ```
 
