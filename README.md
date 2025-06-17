@@ -32,3 +32,10 @@ Projeto para controle de despesas/créditos em finanças particulares.
   /api/transacoes/?ano=2024
 ```
 
+#### Documentação
+
+```http
+  /api/schema/
+  /api/docs/
+```
+
