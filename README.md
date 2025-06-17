@@ -11,25 +11,25 @@ Projeto para controle de despesas/créditos em finanças particulares.
 #### Retorna todas as transações do usuário + balanço geral
 
 ```http
-  /api/v1/transacoes/
+GET /api/v1/transacoes/
 ```
 
 #### Retorna todas as transações do usuário + balanço para o dia-mes-ano informado
 
 ```http
-  /api/v1/transacoes/?data=yyyy-mm-dd
+GET /api/v1/transacoes/?data=yyyy-mm-dd
 ```
 
 #### Retorna todas as transações do usuário + balanço para o mes-ano informado
 
 ```http
-  /api/v1/transacoes/?mes=m&ano=yyyy
+GET /api/v1/transacoes/?mes=m&ano=yyyy
 ```
 
 #### Retorna todas as transações do usuário + balanço para o ano informado
 
 ```http
-  /api/v1/transacoes/?ano=2024
+GET /api/v1/transacoes/?ano=yyyy
 ```
 
 #### Documentação
