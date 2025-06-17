@@ -10,11 +10,6 @@ class FonteViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = FonteSerializer
     permission_classes = [permissions.IsAuthenticated]
 
-    """
-    def create(self, request, *args, **kwargs):
-        return Response({"detail": "Criação de fontes não permitida."}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
-    """
-
 class TransacaoViewSet(viewsets.ModelViewSet):
     queryset = Transacao.objects.all()
     serializer_class = TransacaoSerializer
