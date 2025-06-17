@@ -5,10 +5,15 @@ from .models import  Fonte, Transacao
 from .serializers import FonteSerializer, TransacaoSerializer
 from datetime import datetime
 
-class FonteViewSet(viewsets.ModelViewSet):
+class FonteViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Fonte.objects.all()
     serializer_class = FonteSerializer
     permission_classes = [permissions.IsAuthenticated]
+
+    """
+    def create(self, request, *args, **kwargs):
+        return Response({"detail": "Criação de fontes não permitida."}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
+    """
 
 class TransacaoViewSet(viewsets.ModelViewSet):
     queryset = Transacao.objects.all()
